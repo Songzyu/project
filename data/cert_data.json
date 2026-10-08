@@ -1,0 +1,202 @@
+[
+  {
+    "id": "cert_001",
+    "category": "IT · 데이터 · AI",
+    "type": "국가기술",
+    "names": ["정보처리기사", "정보처리산업기사"],
+    "difficulty": "중급",
+    "tool_or_lang": ["Java", "C", "Python", "SQL"],
+    "description": "SW 개발 및 IT 직무 진입 시 전공/비전공을 불문하고 가장 기본이 되는 핵심 자격입니다.",
+    "target_jobs": ["백엔드 개발자", "프론트엔드 개발자", "시스템 운영/유지보수(SM)", "DBA"]
+  },
+  {
+    "id": "cert_002",
+    "category": "IT · 데이터 · AI",
+    "type": "국가기술",
+    "names": ["빅데이터분석기사"],
+    "difficulty": "중상급",
+    "tool_or_lang": ["Python", "R"],
+    "description": "빅데이터 수집, 정제, 분석, 머신러닝 모델링 및 시각화 실무 역량을 검증하는 기사급 자격입니다.",
+    "target_jobs": ["데이터 분석가", "데이터 사이언티스트", "ML 엔지니어"]
+  },
+  {
+    "id": "cert_003",
+    "category": "IT · 데이터 · AI",
+    "type": "국가기술",
+    "names": ["정보보안기사"],
+    "difficulty": "상급",
+    "tool_or_lang": ["Linux", "Network", "C"],
+    "description": "시스템, 네트워크, 애플리케이션 및 보안 법률 등 보안 전반의 실무 역량을 검증합니다.",
+    "target_jobs": ["정보보안 엔지니어", "보안 관제", "모의침투 전문가"]
+  },
+  {
+    "id": "cert_004",
+    "category": "IT · 데이터 · AI",
+    "type": "국가전문",
+    "names": ["정보시스템감리사"],
+    "difficulty": "최상급",
+    "tool_or_lang": ["IT Governance", "SW Engineering"],
+    "description": "정보시스템 구축 및 운영에 관한 감리/컨설팅 업무를 수행할 수 있는 최고급 자격입니다.",
+    "target_jobs": ["IT 감리원", "IT 컨설턴트", "PMO 전문가"]
+  },
+  {
+    "id": "cert_005",
+    "category": "IT · 데이터 · AI",
+    "type": "국가공인민간",
+    "names": ["SQLD", "SQLP"],
+    "difficulty": "초중급(SQLD) / 상급(SQLP)",
+    "tool_or_lang": ["SQL", "Oracle", "MySQL"],
+    "description": "데이터베이스 모델링 및 SQL 튜닝/조회 실무 능력을 검증하는 표준 DB 자격입니다.",
+    "target_jobs": ["DBA", "데이터 분석가", "백엔드 개발자"]
+  },
+  {
+    "id": "cert_006",
+    "category": "IT · 데이터 · AI",
+    "type": "국가공인민간",
+    "names": ["ADsP", "ADP"],
+    "difficulty": "초중급(ADsP) / 상급(ADP)",
+    "tool_or_lang": ["R", "Python"],
+    "description": "데이터 분석 기획, 통계학 기초 및 데이터 마이닝 실무 개념을 검증합니다.",
+    "target_jobs": ["데이터 분석가", "비즈니스 데이터 기획자"]
+  },
+  {
+    "id": "cert_007",
+    "category": "IT · 데이터 · AI",
+    "type": "국가공인민간",
+    "names": ["네트워크관리사", "리눅스마스터"],
+    "difficulty": "초중급",
+    "tool_or_lang": ["Linux", "TCP/IP"],
+    "description": "서버 OS 및 네트워크 인프라 구축·운용 실무 능력을 검증합니다.",
+    "target_jobs": ["네트워크 엔지니어", "시스템 엔지니어(SE)", "클라우드 엔지니어"]
+  },
+  {
+    "id": "cert_008",
+    "category": "IT · 데이터 · AI",
+    "type": "등록민간",
+    "names": ["AICE Basic", "AICE Associate", "AICE Professional"],
+    "difficulty": "초급(Basic) / 중급(Associate) / 상급(Professional)",
+    "tool_or_lang": ["Python", "Pandas", "Scikit-learn", "TensorFlow"],
+    "description": "실제 파이썬 환경에서 데이터 전처리, 데이터 시각화 및 머신러닝/딥러닝 모델링을 수행하는 실기 중심 AI 자격입니다.",
+    "target_jobs": ["AI 엔지니어", "데이터 분석가", "파이썬 개발자"]
+  },
+  {
+    "id": "cert_009",
+    "category": "IT · 데이터 · AI",
+    "type": "등록민간(국제)",
+    "names": ["AWS Certified Solutions Architect", "GCP Associate Cloud Engineer"],
+    "difficulty": "중상급",
+    "tool_or_lang": ["AWS", "GCP", "Cloud"],
+    "description": "클라우드 인프라 설계, 배포 및 운영 아키텍처 역량을 인증하는 글로벌 자격입니다.",
+    "target_jobs": ["클라우드 아키텍트", "DevOps 엔지니어"]
+  },
+  {
+    "id": "cert_010",
+    "category": "경영 · 회계 · 사무",
+    "type": "국가기술",
+    "names": ["컴퓨터활용능력 1급", "컴퓨터활용능력 2급", "전산회계운용사"],
+    "difficulty": "초중급",
+    "tool_or_lang": ["Excel", "Access"],
+    "description": "사무 자동화의 필수 도구인 스프레드시트 및 데이터베이스 활용 능력을 평가합니다.",
+    "target_jobs": ["일반 사무직", "경영지원", "공공기관 및 기업 전 직무"]
+  },
+  {
+    "id": "cert_011",
+    "category": "경영 · 회계 · 사무",
+    "type": "국가전문",
+    "names": ["공인회계사(CPA)", "세무사", "공인노무사", "경영지도사"],
+    "difficulty": "최상급",
+    "tool_or_lang": ["재무회계", "세법", "노동법"],
+    "description": "기업 회계, 세무, 노무 및 경영 컨설팅에 관한 전문 법적 권한을 보유하는 자격입니다.",
+    "target_jobs": ["회계법인", "세무법인", "기업 재무/인사팀 전문가"]
+  },
+  {
+    "id": "cert_012",
+    "category": "경영 · 회계 · 사무",
+    "type": "국가공인민간",
+    "names": ["재경관리사", "전산세무회계 1/2급", "ERP정보관리사"],
+    "difficulty": "중급",
+    "tool_or_lang": ["K-IFRS", "전산세무회계 프로그램", "ERP"],
+    "description": "기업 재무, 회계, 원가 및 ERP 시스템 실무 처리 역량을 인증합니다.",
+    "target_jobs": ["재무팀", "회계팀", "자금팀"]
+  },
+  {
+    "id": "cert_013",
+    "category": "금융 · 무역 · 유통",
+    "type": "국가전문",
+    "names": ["관세사", "물류관리사"],
+    "difficulty": "상급(관세사) / 중급(물류관리사)",
+    "tool_or_lang": ["관세법", "물류관리론"],
+    "description": "무역 통관 절차 수행 및 물류 공급망 관리(SCM) 전문 자격입니다.",
+    "target_jobs": ["관세법인", "물류기업 SCM", "무역회사"]
+  },
+  {
+    "id": "cert_014",
+    "category": "금융 · 무역 · 유통",
+    "type": "국가공인민간",
+    "names": ["매경TEST", "TESAT", "신용분석사", "무역영어", "원산지관리사"],
+    "difficulty": "초중급",
+    "tool_or_lang": ["경제학", "경영학", "무역실무"],
+    "description": "금융권 입사, 원산지 판정 및 무역 서식 이해도를 평가하는 실무 자격입니다.",
+    "target_jobs": ["은행/금융권", "무역 사무", "수출입 관리"]
+  },
+  {
+    "id": "cert_015",
+    "category": "금융 · 무역 · 유통",
+    "type": "등록민간(국제)",
+    "names": ["AFPK", "CFP", "CFA", "FRM"],
+    "difficulty": "중급(AFPK) / 최상급(CFA/FRM)",
+    "tool_or_lang": ["금융투자", "자산관리", "파생상품"],
+    "description": "개인 자산 관리, 기업 자산 운용 및 금융 리스크 분석에 관한 글로벌 전문 자격입니다.",
+    "target_jobs": ["자산관리사(PB)", "펀드매니저", "리스크 관리자"]
+  },
+  {
+    "id": "cert_016",
+    "category": "건설 · 토목 · 환경",
+    "type": "국가기술",
+    "names": ["건축기사", "토목기사", "산업안전기사", "소방설비기사"],
+    "difficulty": "중상급",
+    "tool_or_lang": ["건축법규", "안전공학", "CAD"],
+    "description": "건설 현장 법정 안전관리자 선임 및 현장 감리/시공에 필수적인 자격입니다.",
+    "target_jobs": ["건설 현장 소장", "안전관리자", "시공/감리 엔지니어"]
+  },
+  {
+    "id": "cert_017",
+    "category": "건설 · 토목 · 환경",
+    "type": "국가전문",
+    "names": ["건축사", "감정평가사", "공인중개사"],
+    "difficulty": "상급",
+    "tool_or_lang": ["건축설계", "부동산학개론"],
+    "description": "부동산 가치 평가, 설계 독점 권한 및 부동산 중개 전문 자격입니다.",
+    "target_jobs": ["건축사사무소", "감정평가법인", "부동산 자산관리"]
+  },
+  {
+    "id": "cert_018",
+    "category": "전기 · 전자 · 기계",
+    "type": "국가기술",
+    "names": ["전기기사", "공조냉동기계기사", "일반기계기사", "위험물산업기사"],
+    "difficulty": "중상급",
+    "tool_or_lang": ["전대로", "열역학", "위험물안전관리법"],
+    "description": "플랜트, 제조 시설 및 대형 빌딩의 시설 관리와 공정 설계를 위한 법정 필수 자격입니다.",
+    "target_jobs": ["시설관리자", "플랜트 엔지니어", "제조업 설비팀"]
+  },
+  {
+    "id": "cert_019",
+    "category": "보건 · 안전 · 의료",
+    "type": "국가전문 / 국가공인",
+    "names": ["의사", "간호사", "임상심리사", "병원행정사", "도로교통사고감정사"],
+    "difficulty": "상급",
+    "tool_or_lang": ["의학", "원무행정", "사고조사"],
+    "description": "보건 의료 분야 면허 및 원무 행정, 교통사고 원인 분석 실무 자격입니다.",
+    "target_jobs": ["의료기관", "병원 원무과", "손해사정법인"]
+  },
+  {
+    "id": "cert_020",
+    "category": "문화 · 디자인 · 어학",
+    "type": "국가기술 / 공인민간",
+    "names": ["시각디자인기사", "웹디자인기능사", "GTQ(포토샵/일러스트)", "KBS한국어능력시험", "TEPS"],
+    "difficulty": "초중급",
+    "tool_or_lang": ["Photoshop", "Illustrator", "HTML/CSS", "국어/어학"],
+    "description": "디자인 툴 활용 실무 능력, 웹 페이지 그래픽 구현 및 어학/국어 역량을 평가합니다.",
+    "target_jobs": ["웹 디자이너", "시각 디자이너", "언론/출판사", "공기업 가산점"]
+  }
+]
