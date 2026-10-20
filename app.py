@@ -15,7 +15,7 @@ from rag_engine import (
     build_local_details,
     generate_details_with_gemini,
     load_certificates,
-    retrieve_certificate,
+    retrieve_certificates,
 )
 
 
@@ -91,25 +91,28 @@ def main() -> None:
         return
 
     try:
-        match = retrieve_certificate(query, certificates)
-        if api_key.strip():
-            details = generate_details_with_gemini(
-                match,
-                api_key.strip(),
-                model=os.getenv("GEMINI_MODEL", "gemini-2.5-flash"),
-            )
-            st.caption("Gemini Structured Output으로 정보를 정리했습니다.")
-        else:
-            details = build_local_details(match)
-            st.caption("API 키 없이 데이터셋 검색 결과를 표시합니다.")
+        matches = retrieve_certificates(query, certificates)
+        st.success(f"총 {len(matches)}개의 자격증 정보를 찾았습니다.")
+
+        for match in matches:
+            if api_key.strip():
+                details = generate_details_with_gemini(
+                    match,
+                    api_key.strip(),
+                    model=os.getenv("GEMINI_MODEL", "gemini-2.5-flash"),
+                )
+            else:
+                details = build_local_details(match)
+            
+            _render_details(details)
+            st.divider()
+
     except CertificateNotFoundError as exc:
         st.warning(str(exc))
         return
     except (RuntimeError, ValueError) as exc:
         st.error(f"자격증 정보를 불러오지 못했습니다: {exc}")
         return
-
-    _render_details(details)
 
 
 if __name__ == "__main__":
