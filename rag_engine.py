@@ -118,29 +118,33 @@ def _similarity(query: str, name: str) -> float:
     )
 
 
-def retrieve_certificate(
+def retrieve_certificates(
     query: str, certificates: list[CertificateRecord], threshold: float = 0.3
-) -> CertificateMatch:
+) -> list[CertificateMatch]:
     query_terms = _query_terms(query)
     if not query_terms:
         raise CertificateNotFoundError("자격증 이름을 질문에 포함해 주세요.")
 
-    best_match: CertificateMatch | None = None
+    matches: list[CertificateMatch] = []
     for certificate in certificates:
         for name in certificate.names:
             score = _similarity(query_terms, _normalize(name))
-            if best_match is None or score > best_match.score:
-                best_match = CertificateMatch(
-                    certificate=certificate,
-                    matched_name=name,
-                    score=score,
+            if score >= threshold:
+                matches.append(
+                    CertificateMatch(
+                        certificate=certificate,
+                        matched_name=name,
+                        score=score,
+                    )
                 )
 
-    if best_match is None or best_match.score < threshold:
+    if not matches:
         raise CertificateNotFoundError(
             "데이터셋에서 일치하는 자격증을 찾지 못했습니다. 자격증 이름을 확인해 주세요."
         )
-    return best_match
+    
+    # 점수가 높은 순으로 정렬하여 반환
+    return sorted(matches, key=lambda x: x.score, reverse=True)
 
 
 def _trusted_details(
